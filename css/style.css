@@ -3,7 +3,6 @@
 @import url('../css/font.css');
 
 
-
 *{
     padding: 0;
     margin: 0;
@@ -996,17 +995,14 @@ footer.footer .follow div i{
 }
 
 footer.footer .rights{
-    align-items: center;
     justify-content: center;
     font-family: var(--Josefin);
     color: var(--text-color);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-left: 20%;
+    margin-top: 15%;
 }
 
-footer.footer .rights h4 a{
+footer.footer .rights  a{
     color: aqua;
 }
 
@@ -1124,7 +1120,8 @@ footer.footer .rights .text-grey{
     }
     .img-about
     {
-        width: auto;
+        align-items: left;
+        width: 50px;
     }
     .info-about1,.info-about2,.info-about3{
         display: none;
