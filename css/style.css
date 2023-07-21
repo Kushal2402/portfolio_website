@@ -1117,12 +1117,21 @@ footer.footer .rights .text-grey{
         justify-content: center;
         position: fixed;
     }
+
+
+
     .footer{
         display: inline;
     }
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
         font-size: .8rem;
+    }
+    .header .menu-icon{
+        position: fixed;
+        display: flex;
+        justify-content: end;
+        max-width: 100%;
     }
     .img-about img
     {
