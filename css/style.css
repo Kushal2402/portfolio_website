@@ -1110,16 +1110,15 @@ footer.footer .rights .text-grey{
 {
     html{
         font-size: 70%;
+        display: inline;
     }
     .header{
         grid-template-columns: auto;
         max-width: 100%;
         justify-content: center;
         position: fixed;
+        display: inline;
     }
-
-
-
     .footer{
         display: inline;
     }
