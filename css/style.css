@@ -1111,6 +1111,9 @@ footer.footer .rights .text-grey{
     html{
         font-size: 70%;
     }
+    .header{
+        max-width: 100%;
+    }
     .footer{
         display: inline;
     }
