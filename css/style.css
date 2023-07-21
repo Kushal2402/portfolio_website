@@ -1111,7 +1111,7 @@ footer.footer .rights .text-grey{
     html{
         font-size: 70%;
     }
-    footer{
+    .footer{
         display: inline;
     }
     .portfolio .portfolio-container{
@@ -1120,8 +1120,8 @@ footer.footer .rights .text-grey{
     }
     .img-about img
     {
-        max-width: 100%;
-        height: auto;
+        size: 1px;
+        max-width: 90%;
     }
     .info-about1,.info-about2,.info-about3{
         display: none;
