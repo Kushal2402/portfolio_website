@@ -1113,7 +1113,7 @@ footer.footer .rights .text-grey{
 @media(max-width:420px)
 {
     html{
-        font-size: 80%;
+        font-size: 70%;
     }
     footer{
         display: inline;
@@ -1132,5 +1132,4 @@ footer.footer .rights .text-grey{
     .img-about p{
         font-size: 1rem;
     }
-
 }
