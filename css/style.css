@@ -1132,7 +1132,6 @@ footer.footer .rights .text-grey{
         justify-content: center;
     }
     .header .menu-icon{
-        position: fixed;
         display: flex;
         justify-content: end;
         max-width: 100%;
