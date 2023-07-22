@@ -1111,37 +1111,21 @@ footer.footer .rights .text-grey{
         font-size: 80%;
         
     }
-    .header{
-        grid-template-columns: auto;
-        max-width: 100%;
-        justify-content: center;
-        display: inline;
-    }
-
-    .about-content{
-        display: inline;
-    }
-    .footer{
-        display: inline;
-    }
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
         font-size: .8rem;
         margin-right: auto;
         justify-content: center;
     }
-    .header .menu-icon{
+    
+    .footer{
         display: flex;
-        justify-content: end;
-        max-width: 100%;
+        
     }
     .img-about img
     {
         size: 1px;
         max-width: 90%;
-    }
-    .info-about1,.info-about2,.info-about3{
-        display: none;
     }
     .img-about p{
         font-size: 1rem;
