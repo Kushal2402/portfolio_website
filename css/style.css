@@ -1085,7 +1085,6 @@ footer.footer .rights .text-grey{
     }
     .liquid-shape{
         width: 80%;
-        left: 10%;
         top:13%;
         margin-top: 110%;
     }
@@ -1109,9 +1108,8 @@ footer.footer .rights .text-grey{
 @media(max-width:420px)
 {
     html{
-        font-size: 60%;
-        display: inline;
-        margin-right: 25%;
+        font-size: 80%;
+        overflow: hidden;
     }
     .header{
         grid-template-columns: auto;
@@ -1119,7 +1117,10 @@ footer.footer .rights .text-grey{
         justify-content: center;
         position: fixed;
         display: inline;
-        margin-right: 60%;
+    }
+
+    .about-content{
+        display: inline;
     }
     .footer{
         display: inline;
@@ -1127,7 +1128,8 @@ footer.footer .rights .text-grey{
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
         font-size: .8rem;
-        display: inline;
+        margin-right: auto;
+        justify-content: center;
     }
     .header .menu-icon{
         position: fixed;
